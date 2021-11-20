@@ -1,0 +1,37 @@
+.flex-container {
+   display: flex;
+    width: 300px;
+    height: 150px;
+    align-items: center;
+    background-color: rgb(167, 163, 163);
+  }
+.flex-container_element-1,
+.flex-container_element-2,
+.flex-container_element-3,
+.flex-container_element-4 {
+  flex-basis: 70px;
+  text-align: center;
+  padding: 5px;
+  font-size: 30px;
+}
+.flex-container_element-1{
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: rgb(65, 82, 133);
+}
+.flex-container_element-2{
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: rgb(133, 65, 65);
+}
+.flex-container_element-3{
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: rgb(159, 173, 78);
+}
+.flex-container_element-4{
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: rgb(68, 146, 49);
+}
+
